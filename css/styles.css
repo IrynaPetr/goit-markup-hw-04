@@ -135,9 +135,11 @@ body {
 }
 
 .link-contacts {
+  display: flex;
   color: var(--color-font-first);
   padding-top: 32px;
-    padding-bottom: 32px;
+  padding-bottom: 32px;
+  align-items: center;
 
 }
 
@@ -155,6 +157,7 @@ body {
 .header-icon {
      margin-right: 10px;
     fill: currentColor;
+    
 }
 
 
@@ -313,9 +316,7 @@ body {
               0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-.img {
-  margin-bottom: 30px;
-}
+
 
 
 .team-title {
@@ -336,16 +337,17 @@ body {
 
 .team-text {
   font-size: 16px;    
-  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+.team-about {
+  padding: 30px 32px;
+  box-sizing: border-box;
 }
 
 .list-social {
   display: flex;
   justify-content: center;
   gap: 10px;
-  padding-bottom: 30px;
-  padding-left: 32px;
-  padding-right: 32px;
 }
 
 .item-social {
@@ -433,6 +435,9 @@ color: var(--icon-color);
     display: flex;
 }
 
+.footer .container  {
+  display: flex;
+}
 .logo-foooter-studio {
   color: var(--color-font-third);
 }
@@ -465,10 +470,6 @@ color: var(--icon-color);
  
 }
 
-.cont-contacts {
-margin-left: 160px;
-
-}
 
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
@@ -483,13 +484,13 @@ margin-left: 160px;
     line-height: 16px;
     text-transform: uppercase;
   
-    color: var(--color-border);
+    
     margin-bottom: 20px;
     margin-top: 12px;
 }
 
 .invite-container {
-  
+  color: var(--color-font-third);
   margin-left: 70px;
 }
 
@@ -501,6 +502,9 @@ margin-left: 160px;
 
 .social-list {
   margin-left: 0;
+}
+.footer-icon {
+  fill: var(--color-font-third);
 }
 
 .footer-link-social {
